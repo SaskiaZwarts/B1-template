@@ -190,7 +190,9 @@ button:hover{
 .description{
   flex: 1;
 }
-
+.product-mok{
+  display: flex;
+}
 footer{
   padding: 1em;
   background: #303030;
@@ -224,6 +226,13 @@ footer{
     display: block;
     text-align: center;
   }
+  .product-mok{
+    display: block;
+  }
+  .product-mok img{
+    width: 84%;
+  }
+
 } 
 
 /* 
