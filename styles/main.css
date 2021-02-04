@@ -150,10 +150,24 @@ button{
   color: #000000;
   font-weight: bold;
 }
+.emphasize{
+  border-left: 5px solid #27AE60;
+  box-shadow: 1px 0 5px #27AE60;
+  padding: 1em;
+}
+.emphasize h2{
+  margin: 0;
+  border: none;
+}
 
 .payment-option{
   height: 64px;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+  }
 
 .sidy-by-side{
 }
@@ -193,10 +207,7 @@ footer{
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-.row{
-    display: flex;
-    flex-direction: row;
-  }
+
 @media (max-width: 1024px) {
   .logo{
     margin: 0 auto;
